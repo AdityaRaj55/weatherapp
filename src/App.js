@@ -3,14 +3,14 @@ import Home from "./Components/Home.js";
 import Nav from './Components/Nav';
 import Weather from './Components/Weather';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         {/* <div className='container-fluid p-0'> */}
         <div>
           <Nav></Nav>
@@ -24,7 +24,7 @@ class App extends Component {
             {/* <Weather></Weather> */}
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
