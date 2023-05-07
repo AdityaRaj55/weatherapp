@@ -1,0 +1,32 @@
+.navbar{
+    background-color: rgb(54, 15, 52);
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+.navbar div{
+    margin-left: 100px;
+
+}
+.navItems{
+    /* height: 100px; */
+    padding: 7px 0px;
+    font-size: 25px;
+}
+.items{
+    list-style-type: none;
+    display: inline;
+    /* margin-top: 100px ; */
+    /* align-items: last baseline; */
+    margin-left: 830px;
+}
+.items li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.items li a{
+    text-decoration: none;
+    color: white;
+}

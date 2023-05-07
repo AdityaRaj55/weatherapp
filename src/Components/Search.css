@@ -1,0 +1,10 @@
+.form{
+    /* margin-top: 500px; */
+    width: 500px;
+    margin-left: 50px;
+}
+.form input{
+    /* border-radius: 50px; */
+    border-width: 3px;
+    /* border-color: black; */
+}
