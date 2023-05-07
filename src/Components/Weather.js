@@ -21,7 +21,7 @@ class Weather extends Component {
     searchHandler = () => {
         // if (this.state.lat == "" && this.state.lon == "") {
             // console.log(this.state.city)
-            axios.get('https://api.openweathermap.org/geo/1.0/direct?q=' + this.state.city + '&appid=34dfeda4a2cf9c967d12d45f33c37035')
+            axios.get('http://api.openweathermap.org/geo/1.0/direct?q=' + this.state.city + '&appid=34dfeda4a2cf9c967d12d45f33c37035')
                 .then((result) => {
                     // console.log(result.data[0].lat)
                     this.setState({
